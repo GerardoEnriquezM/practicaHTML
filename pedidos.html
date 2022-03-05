@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="nombreCompleto">Ingresa tu Nombre Completo: </label>
+        <input type="text" id="nombreCompleto" name="nombreCompleto">
+        
+        <br>
+        <br>
+        
+        <label for="telefono">Ingresa tu numero teléfonico: </label>
+        <input type="tel" name="telefono" id="telefono" maxlength="10">
+        
+        <br>
+        <br>
+        
+        <label for="correoElectronico">Correo Electrónico: </label>
+        <input type="email" name="correoElectronico" id="correoElectronico">
+        
+        <br>
+        <br>
+
+        <p>Agregar una descripción: </p>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        
+        <br>
+        <br>
+        
+        <!-- Descripción general del pastel y la selección de sabores y adornos. -->
+        <p>Sabor del pastel:</p>
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label>
+        
+        <br>
+        <br>
+        
+        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+        <label for="venus">Vainilla</label>
+        
+        <br>
+        <br>
+
+        <input type="checkbox" id="fresa" name="fresa" value="fresa">
+        <label for="fresa">Fresa</label>
+
+        <br>
+        <br>
+
+        <input type="checkbox" id="durazno" name="durazno" value="durazno">
+        <label for="venus">Durazno</label>
+        
+        <br>
+        <br>
+        
+        <p>Tipo de adorno:</p>
+        <input type="checkbox" id="fondant" name="fondant" value="fondant">
+        <label for="fondant">Fondant</label>
+        
+        <br>
+        <br>
+        
+        <input type="checkbox" id="betun" name="betun" placeholder="betun">
+        <label for="betun">Betunes</label>
+
+        <br>
+        <br>
+
+        <input type="checkbox" id="glaseados" name="glaseados" value="glaseados">
+        <label for="glaseados">Glaseados</label>
+
+        <br>
+        <br>
+
+        <input type="checkbox" id="coberturaChocolate" name="coberturaChocolate" value="coberturaChocolate">
+        <label for="coberturaChocolate">Coberturas de Chocolate</label>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
